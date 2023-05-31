@@ -6,7 +6,7 @@ Portfolio created using React.js. The portfolio is a single page application tha
 ## Usage
 The portfolio can be accessed at the following link: [https://rogeliosanchez.github.io/react-portfolio/](https://rogeliosanchez.github.io/react-portfolio/)
 
-[Portfolio](https://i.imgur.com/zDM3tAW.gifv)
+![Portfolio](https://i.imgur.com/zDM3tAW.gif)
 
 ## License
 MIT License
