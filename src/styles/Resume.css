@@ -1,0 +1,12 @@
+.resume {
+    background: #468C98;
+    padding: 5px;
+  }
+  
+  .resume-container {
+    text-align: center;
+    height: 500px;
+    width: 100%;
+    background-color: #ADD9F4;
+    margin: 3px;
+  }

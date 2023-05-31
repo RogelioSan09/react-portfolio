@@ -1,0 +1,36 @@
+.contactForm {
+    background: #468C98;
+    padding: 5px;
+    height: 100%;
+    line-height: 2;
+}
+
+.contactForm h1 {
+    text-align: left;
+}
+
+form {
+    background-color: #ADD9F4;
+    border: 5px solid black;
+    margin: 5px;
+    height: 350px;
+    width: 50%;
+}
+
+form label, input {
+    text-align: left;
+    display: block;
+    line-height: 2;
+    height: 40px;
+    width: 100%;
+    margin: 5px;
+}
+
+form button{
+    text-align: center;
+    display: block;
+    line-height: 2;
+    height: 40px;
+    width: 25%;
+    margin: 5px;
+}

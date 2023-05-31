@@ -1,0 +1,31 @@
+.navigation {
+    background: #230903;
+    height: fit-content;
+    border: 3px solid black;
+  }
+  
+  .navigation a {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 2;
+    overflow: auto;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    width: 250px;
+    color:aliceblue;
+    padding: 1px;
+    text-decoration: none;
+    text-align: center;
+}
