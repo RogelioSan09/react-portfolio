@@ -1,9 +1,12 @@
 import React from 'react';
 import '../styles/Portfolio.css';
+import Header from './pages/Header';
+import Footer from './Footer';
 
 function Portfolio() {
     return (
         <div className="projects">
+            <Header />
             <section className="travlr">  
                 <h2><a href="https://dann-lam.github.io/04-08-2023-travlr/">Travlr!</a></h2>
                 <img src="assets/img/Travlr.gif" alt="Travlr!" />
@@ -27,7 +30,7 @@ function Portfolio() {
                 </h3>
             </section>
 
-            <section className="project3">
+            {/* <section className="project3">
                 <h2><a href="">Title</a></h2>
                 <p>
                     Description
@@ -65,7 +68,8 @@ function Portfolio() {
                 <h3>Link to the GitHub repository:
                     <a href="">Repository</a>
                 </h3>
-            </section>
+            </section> */}
+            <Footer />
         </div>
     )
 }

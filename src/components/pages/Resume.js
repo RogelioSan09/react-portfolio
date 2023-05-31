@@ -1,13 +1,16 @@
 import React from 'react';
 import '../styles/Resume.css';
+import Header from './pages/Header';
+import Footer from './pages/Footer';
 
 function Resume() {
     return (
         <div className="resume">
+            <Header />
             <h1>Resume</h1>
             <div className="resume-container">
                 <div className="resume-left">
-                    <h2>Front-end Proficiencies</h2>
+                    <h2>Proficiencies</h2>
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
@@ -18,6 +21,7 @@ function Resume() {
                     </ul>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
