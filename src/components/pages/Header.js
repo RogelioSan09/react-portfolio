@@ -1,6 +1,5 @@
 import React from 'react';
-import '../styles/Header.css';
-import Navigation from '../Navigation';
+import '../../styles/Header.css';
 
 export default function Header() {
     return (
@@ -8,7 +7,6 @@ export default function Header() {
             <header className="header">
                 <h1>Rogelio Sanchez</h1>
             </header>
-            <Navigation />
         </div>
-    )
+    );
 }

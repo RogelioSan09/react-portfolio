@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/Resume.css';
-import Header from './pages/Header';
-import Footer from './pages/Footer';
+import '../../styles/Resume.css';
+import Header from '../pages/Header';
+import Footer from '../pages/Footer';
 
 function Resume() {
     return (
@@ -23,7 +23,7 @@ function Resume() {
             </div>
             <Footer />
         </div>
-    )
+    );
 }
 
 export default Resume;

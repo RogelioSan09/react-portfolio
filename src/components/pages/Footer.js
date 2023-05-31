@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Footer.css';
+import '../../styles/Footer.css';
 
 function Footer() {
     return (
@@ -10,7 +10,7 @@ function Footer() {
                 <li><a href="https://www.linkedin.com/in/rsanchez09/">LinkedIN</a></li>
             </ul>
         </footer>
-    )
+    );
 }
 
 export default Footer;

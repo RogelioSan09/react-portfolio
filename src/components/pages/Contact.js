@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/Contact.css';
-import Header from './pages/Header';
-import Footer from './pages/Footer';
+import '../../styles/Contact.css';
+import Header from '../pages/Header';
+import Footer from '../pages/Footer';
 
 function Contact() {
     return (
@@ -18,13 +18,13 @@ function Contact() {
 
                     <label for="message">Message:</label>
                     <input type="message" id="message" name="message" />
-                    
+
                     <button type="submit">Submit</button>
                 </div>
             </form>
             <Footer />
         </div>
-    )
+    );
 }
 
 export default Contact;
